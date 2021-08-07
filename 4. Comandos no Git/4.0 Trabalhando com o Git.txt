@@ -36,13 +36,3 @@ Depois execute novamente os comandos de definição de email e nome, passando as
  - git pull <umNomePraIdentificar> master
 [Clonando um repositório]
  - git clone <linkRepositorio>
-
------------------------------------------------------------------------------------------------------------
-
-Criando um repositório.
-- Crie uma pasta onde o repositório será criado.
-- Dentro da pasta inicie o Git. 
-
-Adicionando um ou mais arquivos no repositório.
-- git add.
-- git commit (Efetivar o versionamento e atualização dos arquivos).

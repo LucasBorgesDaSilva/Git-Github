@@ -20,4 +20,3 @@
 
 ## Links pessoais
  - Linkedin: https://www.linkedin.com/in/lucasborges-da-silva
- - Instagram: https://www.instagram.com/eulucasborges_
