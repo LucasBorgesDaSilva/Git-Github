@@ -1,0 +1,59 @@
+[Objetos]
+
+[BLOBS] / [TREES] / [COMMITS]
+
+São os três principais objetos dentro do Git, resposáveis pelo versionamento do código.
+
+[BLOBS]
+
+O objeto blob possui alguns metadados dentro da sua composição, então ao fazer a sua Encriptação através do Git, o Conjunto
+que é gerado é diferente do conjunto gerado utilizando o openssl sha1.
+
+Dentro do objeto Blob, existem os seguintes metadados:
+"Blob
+
+\0
+<conteudo>"
+
+- Por conta dos metadados as chaves tornam-se diferentes, mesmo o conteúdo sendo o mesmo.
+
+- Exemplo dos Conjuntos diferentes por conta do objeto Blob:
+echo 'conteudo' | git hash-object --stdin
+>fc31e9...
+
+echo -e 'conteudo' | openssl sha1
+>65b0d0...
+
+- Para serem geradas iguais teria que ser desta forma:
+echo 'conteudo' | git hash-object --stdin
+>fc31e9...
+
+echo -e 'blob 9\0conteudo' | openssl sha1
+>fc31e9...
+
+- Pelo openssl, temos que colocar os metadados que por padrão vem no Objeto Blob, no conteudo do arquivo.
+
+
+[TREES]
+Elas armazenam os BLOBS, é uma crescente. Os Blobs é o bloco básico de composição, As trees armazenam e apontam para os 
+diferentes tipos de blobs.
+
+- Elas são responsáveis por montar toda a estrutura de arquivos.
+
+As TREES possuem metadados, sendo eles:
+"TREE
+\0
+Blob sha1 <NomedoArquivo>"
+
+[COMMIT]
+É o Objeto que junta tudo. O que da sentido ao que você está fazendo.
+
+Os COMMITS possuem metadados, sendo eles:
+"
+tree  sha1
+parente sha1
+autor <nomedoautor>
+
+mensagem <Texto>
+
+timestamp"

@@ -1,0 +1,12 @@
+[SHA1] 
+Secure Hash Algorithm [Algoritmo de Hash Seguro]. Algoritmo de Encriptação, é um conjunto de funções hash criptográficas 
+projetadas pela NSA(Agência Nacional de Segurança dos EUA).
+
+A grosso modo, ele pega o seu arquivo e embaralha de uma forma específica.
+
+Essa Encriptação gera um conjunto de Caracteres identificador de 40 dígitos. Qualquer alteração feita no arquivo é gerado um
+novo conjunto.
+
+Exemplo no Git Bash
+- openssl sha1 <nomedoarquivo>. 
+[O conjunto do arquivo é gerado]

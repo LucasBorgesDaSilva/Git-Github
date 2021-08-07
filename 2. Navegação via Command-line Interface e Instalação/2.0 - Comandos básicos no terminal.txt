@@ -1,0 +1,17 @@
+[Comandos]
+[Windows] |  [Linux/macOS]
+dir       |  ls      - [Listar pastas].
+cd        |  cd      - [Mudar de pastas].
+mkdir     |  mkdir   - [Criar pastas/arquivos].
+del/rmdir |  rm -rf  - [Deletar pastas/arquivos].
+cls       |  clear   - [Limpar o terminal].
+mv        |  mv      - [Mover arquivos para outros locais].
+
+[Atalhos]
+[Windows] |  [Linux/macOS]
+NaN       |  ctrl + L      - [Limpar o terminal].
+Tab       |  Tab           - [Autocomplete].   
+
+[Flags]
+[Windows]     | [Linux/macOS]
+dir -a        | ls  -a          - [Listar pastas/arquivos ocultos].

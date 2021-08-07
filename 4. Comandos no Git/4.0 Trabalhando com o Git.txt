@@ -1,0 +1,48 @@
+[Configurações Iniciais do Git].
+
+[Definir o email do usuário. (Global ou somente no projeto)]
+- git config --global user.email "<email>"
+
+[Definir o nome de usuário. (Global ou somente no projeto)]
+- git config --global user.name <nome>
+
+[Verificar as informações de configurações salvas no seu git]
+- git config --list
+
+[Alterar as informações setadas anteriormente]
+- git config --global --unset user.email (Remove o email setado).
+- git config --global --unset user.name (Remove o nome setado).
+
+Depois execute novamente os comandos de definição de email e nome, passando as novas informações.
+
+---------------------------------------------------------------------------------------------------------
+
+[Comandos].
+
+[Iniciar o Git e criar um repositório]
+ - git init
+[Verificar o status dos arquivos, em que fase eles se encontram]
+ - git status
+[Adicionar arquivos para serem comitados]
+ - git add * ou . (para todos)
+ - git add <filename>
+[Criar um commit]
+ - git commit -m "<Mensagem do commit>"
+[Adicionar o repositório remoto criado no Github]
+ - git remote add <umNomePraIdentificar> <repositoryName>
+[Levar os commit's do repositório local para o repositório remoto]
+ - git push <umNomePraIdentificar> master
+[Puxar o conteúdo do repositório remoto para o local, e tentar integrar ambos para resolver conflitos de merge. (Resolver conflitos de versão)]
+ - git pull <umNomePraIdentificar> master
+[Clonando um repositório]
+ - git clone <linkRepositorio>
+
+-----------------------------------------------------------------------------------------------------------
+
+Criando um repositório.
+- Crie uma pasta onde o repositório será criado.
+- Dentro da pasta inicie o Git. 
+
+Adicionando um ou mais arquivos no repositório.
+- git add.
+- git commit (Efetivar o versionamento e atualização dos arquivos).

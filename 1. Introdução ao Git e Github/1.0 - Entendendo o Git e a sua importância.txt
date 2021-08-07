@@ -1,0 +1,13 @@
+[Git]
+- Software de Versionamento de códigos. Permite você atualizar os seus arquivos de forma colaborativa, desta forma não é necessário criar cópias do mesmo arquivo.
+- Um único documento é atualizado sempre que ocorre uma alteração, e outras pessoas podem, caso o repositório seja público, enxergar esses documentos.
+
+[Github]
+- Plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.
+
+[Benefícios de aprender Git e Github]
+ - [Controle de Versão] Aprender a trabalhar com controle de versão.
+ - [Armazenamento em Nuvem] Armazenamento em Nuvem do seu código.
+ - [Trabalho em Equipe] O versionamento de código tem premite trabalhar em equipe.
+ - [Melhoria do código] O seu código fica disponível a milhares e milhares de pessoas, isso permite que elas iterajam e ajude a melhorar ele.
+ - [Reconhecimento] O github funciona como uma rede social, então caso seu código seja bem aceito pela comunidade, certamente o reconhecimento da plataforma e da comunidade acontece.

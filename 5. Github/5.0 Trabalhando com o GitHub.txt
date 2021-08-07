@@ -1,0 +1,31 @@
+[Acessar o Github]
+
+1- Acesse: https://github.com/
+2- Crie uma conta caso não tenha.
+3- Faça o login.
+
+[Criando um repositório]
+
+1- No canto superior direito, clique na sua foto.
+2- Your repositories.
+3- New.
+4- Informe o nome do repositório.
+5- Adicione uma descrição (Opcional).
+6- Defina a visibilidade (Public/Provate).
+7- Create Repository.
+
+[Baixar códigos de outros repositórios]
+
+1- Entre no repositório.
+2- Clique no botão Code.
+3- Baixe o código em formato .ZIP
+
+[Clonar um repositório pelo terminal]
+1- Entre no repositório.
+2- Clique no botão Code.
+3- Copie o link.
+4- Entre no seu repositório local através do git bash
+5- git clone <linkCopiado>.
+
+A diferença entre "Clonar" e "Fazer Download", é que quando você clona as "pastas/arquivos", eles já vem configurados,
+a pasta ".git" é gerada e os arquivos já estão prontos pra uso.
