@@ -1,6 +1,4 @@
-# Controle de Versionamento de código com Git e GitHub :clipboard:
-
-## Olá, seja bem vindo!
+# Controle de Versionamento de código com Git e GitHub.
 
 ### Documentação de conceitos e códigos
 
@@ -12,17 +10,13 @@
 
 #### Módulo 03 - Funcionamento do Git em baixo dos panos.
  - SHA1. :lock:
- - Obejetos Internos. :page_with_curl:
+ - Objetos Internos. :page_with_curl:
 
 #### Módulo 04 - Comandos no Git.
  - Trabalhando com o Git. :zap:
 
 #### Módulo 05 - Github.
  - Trabalhando com o GitHub. :cat:
-
-
-## ____________________________________
-
 
 ## Links pessoais
  - Linkedin: https://www.linkedin.com/in/lucasborges-da-silva
